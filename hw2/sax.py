@@ -1,4 +1,3 @@
-
 import xml.sax
 
 class MovieHandler( xml.sax.ContentHandler ):
@@ -22,7 +21,7 @@ class MovieHandler( xml.sax.ContentHandler ):
    def endElement(self, tag):
       
       if self.CurrentData == "publisher" and self.platform == "PC":
-         print self._id,";", self.name,";", self.publisher,";",self.genre,";",self.year_of_release
+         print(self._id,";", self.name,";", self.publisher,";",self.genre,";",self.year_of_release)
       self.CurrentData = ""
 
    # Call when a character is read
@@ -48,6 +47,6 @@ if ( __name__ == "__main__"):
 
    # override the default ContextHandler
    Handler = MovieHandler()
-   parser.setContentHandler( Handler )
+   parser.setContentHandler(Handler)
    
    parser.parse("videogames.xml")

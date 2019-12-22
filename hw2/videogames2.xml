@@ -1,0 +1,46 @@
+<video_games>
+  <game id="1">
+    <name>Wii Sports</name>
+    <platform>Wii</platform>
+    <year_of_release>2006</year_of_release>
+    <genre>Sports</genre>
+    <publisher>Nintendo</publisher>
+    <developer>Nintendo</developer>
+    <rating>E</rating>
+    <platform_type>console</platform_type>
+    <sales>
+      <na_sales>41.36</na_sales>
+      <eu_sales>28.96</eu_sales>
+      <jp_sales>3.77</jp_sales>
+      <other_sales>8.45</other_sales>
+    </sales>
+    <review_scores>
+      <critic_score>76</critic_score>
+      <critic_count>51</critic_count>
+      <user_score>80</user_score>
+      <user_count>322</user_count>
+    </review_scores>
+  </game>
+  <game id="3">
+    <name>Mario Kart Wii</name>
+    <platform>Wii</platform>
+    <year_of_release>2008</year_of_release>
+    <genre>Racing</genre>
+    <publisher>Nintendo</publisher>
+    <developer>Nintendo</developer>
+    <rating>E</rating>
+    <platform_type>console</platform_type>
+    <sales>
+      <na_sales>15.68</na_sales>
+      <eu_sales>12.76</eu_sales>
+      <jp_sales>3.79</jp_sales>
+      <other_sales>3.29</other_sales>
+    </sales>
+    <review_scores>
+      <critic_score>82</critic_score>
+      <critic_count>73</critic_count>
+      <user_score>83</user_score>
+      <user_count>709</user_count>
+    </review_scores>
+  </game>
+</video_games>
